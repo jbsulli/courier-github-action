@@ -1,4 +1,4 @@
-name: Courier GitHub Action
+name: Josh's Courier GitHub Action
 description: Send e-mail, sms, push, etc. notifications with Courier.
 outputs:
   messageId:
