@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2017"],
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "strict": true,
+    "target": "es6"
+  },
+  "exclude": ["node_modules"]
+}

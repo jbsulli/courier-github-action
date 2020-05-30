@@ -1,0 +1,21 @@
+{
+  "author": "Joshua Sullivan",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.2.0",
+    "@trycourier/courier": "^1.3.0"
+  },
+  "description": "Courier GitHub Action",
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "typescript": "^3.9.3"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "courier-github-action",
+  "private": true,
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist"
+  },
+  "version": "1.0.0"
+}
